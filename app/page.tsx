@@ -69,7 +69,7 @@ export default function Home() {
           Contact Me
         </Link>
       </div>
-      <div className='absolute bottom-0 right-0 z-[10'>
+      <div className='absolute bottom-0 right-0 z-[10]'>
         <Image
           src='/horse.png'
           alt='horse'
