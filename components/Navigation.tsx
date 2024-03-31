@@ -2,7 +2,8 @@
 import { NavLinks } from "@/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import Transition from "./Transition";
 
 const Navigation = () => {
   const [isRoute, setIsRoute] = useState(false);
@@ -12,9 +13,7 @@ const Navigation = () => {
   useEffect(() => {
     if (path !== prevPath) {
       setIsRoute(true);
-    } else {
-      setIsRoute(false);
-    }
+    } 
   }, [path, prevPath]);
   useEffect(() => {
     if (isRoute) {
@@ -30,6 +29,7 @@ const Navigation = () => {
       style={{ left: "20%" }}
       className='absolute z-[50] -bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center border py-7 border-white'
     >
+      {isRoute && <Transition />}
       {NavLinks.map((nav) => (
         <Link key={nav.name} href={nav.link} className='mb-16 pl-4 min-w-[20%]'>
           <nav.icon

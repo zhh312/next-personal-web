@@ -1,6 +1,6 @@
 "use client";
-import React from 'react'
-import {motion} from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
 const TransitionVariants = {
   initial: {
     y: "100%",
@@ -19,21 +19,32 @@ const TransitionVariants = {
 const Transition = () => {
   return (
     <div>
-        <motion.div className='fixed'>
-            <motion.div
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                variants={TransitionVariants}
-                transition={{ duration: 0.5 }}
-            >
-                <div>
-                    myskill
-                </div>
-            </motion.div>
-        </motion.div>
+      <motion.div
+        className='fixed right-0 h-screen w-screen bottom-full z-[30] bg-[#2e2257]'
+        initial='initial'
+        animate='animate'
+        exit='exit'
+        variants={TransitionVariants}
+        transition={{ delay: 0.2, duration: 0.6, ease: "easeInOut" }}
+      />
+      <motion.div
+        className='fixed right-0 h-screen w-screen bottom-full z-[20] bg-[#3b2d71]'
+        initial='initial'
+        animate='animate'
+        exit='exit'
+        variants={TransitionVariants}
+        transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
+      />
+      <motion.div
+        className='fixed right-0 h-screen w-screen bottom-full z-[10] bg-[#4b3792]'
+        initial='initial'
+        animate='animate'
+        exit='exit'
+        variants={TransitionVariants}
+        transition={{ delay: 0.6, duration: 0.6, ease: "easeInOut" }}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default Transition
+export default Transition;
