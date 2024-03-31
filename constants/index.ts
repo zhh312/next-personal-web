@@ -2,7 +2,7 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
   {
-    name: "Html 5",
+    name: "Html",
     Image: "/html.png",
     width: 80,
     height: 80,
@@ -68,7 +68,6 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  
 ];
 
 export const backEndData = [
@@ -127,7 +126,7 @@ export const backEndData = [
     height: 80,
   },
   {
-    name: "flutter",
+    name: "Flutter",
     Image: "/flutter.png",
     width: 80,
     height: 80,
@@ -167,23 +166,40 @@ export const Socials = [
 export const Projects = [
   {
     title: "Modern MERN Estate Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: `Advanced Authentication using JWT, Firebase, and Google OAuth.
+          Implement cutting-edge search features.
+          Real-world CRUD Operations using MongoDB.
+          User experience with image uploads, property listing management.
+          `,
     src: "/mern.jpg",
+    link: "https://mern-estate-hkvl.onrender.com",
   },
   {
     title: "Face Recognition Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: `Image Processing with OpenCV.
+            Face Detection with Haar Cascades.
+            Eigenfaces with PCA.
+            Face Recognition Classification Model with Support Vector Machines.
+            Using flask develop Face Recognition Web`,
     src: "/Ai_face.jpg",
+    link: "https://sassy-wood-production.up.railway.app/",
   },
   {
     title: "Modern AI Chatbot",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: `Developed a Transformer chatbot and a LSTM chatbot. 
+    Trained the model by movie dialogue datasets to enhance conversational capabilities. 
+    Implemented server connectivity for web-based deployment, enabling chatbot interaction 
+    via text and voice inputs.`,
     src: "/chatbot.jpg",
+    link: "",
   },
   {
     title: "Android Twitter Clone App",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    text: `Implementing features such as posting tweets, following users, real-time chat etc.
+     Ensured seamless user experience and adherence to Twitter's design principles. 
+      Using the firebase the store the data. Make all data is store in the firebase database.`,
     src: "/android.jpg",
+    link: "",
   },
 ];
 

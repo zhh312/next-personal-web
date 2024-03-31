@@ -32,7 +32,7 @@ const Page = () => {
             disableOnInteraction: false,
           }}
           className='max-w-[80%]'
-          slidesPerView={5}
+          slidesPerView={6}
           speed={5000}
           loop={true}
         >
@@ -61,7 +61,7 @@ const Page = () => {
             reverseDirection: true,
           }}
           className='max-w-[80%]'
-          slidesPerView={5}
+          slidesPerView={6}
           speed={5000}
           loop={true}
         >

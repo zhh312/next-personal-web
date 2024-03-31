@@ -18,10 +18,12 @@ export default function Home() {
             </span>
           </h1>
           <p className='text-gray-200 hidden md:block'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            accusamus labore dolorem laborum fugiat officia suscipit eius
-            repellat ea sequi qui cumque ipsa, vel enim voluptas, iste fugit
-            magni quas.
+            A Syracuse university computer science master graduating in May, I
+            hold a U.S. green card with legal work status. With a diverse
+            project portfolio spanning website development, AI and Android apps.
+            <br />
+            Experienced in project management job, I excel in guiding teams
+            towards success and thrive in collaborative environments.
           </p>
           <div className='flex-col md:flex-row hidden md:flex gap-5'>
             <Link

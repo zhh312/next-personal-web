@@ -19,10 +19,10 @@ const Navbar = () => {
       </div> */}
       <Link href='/resume'>
         <h1 className='text-white text-[25px] font-semibold'>
-        Honghao
+        Click here to see
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500'>
           
-           <span>'s Resume</span>
+           <span>{" "}Resume</span>
         </span>
         
         </h1>
