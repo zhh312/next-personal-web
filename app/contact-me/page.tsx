@@ -12,7 +12,7 @@ const Page = () => {
       className='w-screen h-screen bg-cover bg-center flex items-center justify-center'
     >
       <div
-        style={{ backgroundImage: "url(/atombg-comp.webp)" }}
+        style={{ backgroundImage: "url(/bg31.jpg)" }}
         className='h-[60%] w-[80%] relative bg-cover bg-center rounded-xl border border-white flex justify-center items-center'
       >
         <div className='absolute left-20 w-[70%] md:w-[30%] flex justify-center items-center'>

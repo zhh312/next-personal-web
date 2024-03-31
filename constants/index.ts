@@ -45,7 +45,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next js",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -57,59 +57,133 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Node js",
     Image: "/node-js.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Mongo db",
+    name: "Flask",
+    Image: "/flask.png",
+    width: 80,
+    height: 80,
+  },
+  
+];
+
+export const backEndData = [
+  {
+    name: "Python",
+    Image: "/python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "C++",
+    Image: "/c.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Java",
+    Image: "/java.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "SQL",
+    Image: "/sql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Mongo DB",
     Image: "/mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    name: "Android",
+    Image: "/android-studio.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Kotlin",
+    Image: "/kotlin.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Git",
+    Image: "/git.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Linux",
+    Image: "/linux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "flutter",
+    Image: "/flutter.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Haskell",
+    Image: "/haskell.png",
+    width: 80,
+    height: 80,
   },
 ];
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Github",
+    src: "/github.png",
+    link: "https://github.com/zhh312",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Linkedin",
+    src: "/linkedin.png",
+    link: "https://www.linkedin.com/in/honghao-zheng-77167223a/",
   },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+  // {
+  //   name: "Discord",
+  //   src: "/instagram.svg",
+  // },
+  // {
+  //   name: "Facebook",
+  //   src: "/facebook.svg",
+  // },
+  // {
+  //   name: "Instagram",
+  //   src: "/discord.svg",
+  // },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
+    title: "Modern MERN Estate Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "/mern.jpg",
   },
   {
-    title: "Space Themed Website",
+    title: "Face Recognition Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/Ai_face.jpg",
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "Modern AI Chatbot",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "/chatbot.jpg",
   },
   {
-    title: "Matrix themed Website",
+    title: "Android Twitter Clone App",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/android.jpg",
   },
 ];
 

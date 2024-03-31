@@ -2,7 +2,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SkillData } from '@/constants';
+import { backEndData, SkillData } from '@/constants';
 import Image from 'next/image';
 import {Autoplay} from 'swiper/modules';
 
@@ -65,7 +65,7 @@ const Page = () => {
           speed={5000}
           loop={true}
         >
-          {SkillData.map((skill, index) => (
+          {backEndData.map((skill, index) => (
             <SwiperSlide
               key={index}
               className='flex flex-col items-center gap-4'
