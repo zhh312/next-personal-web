@@ -172,7 +172,7 @@ export const Projects = [
           User experience with image uploads, property listing management.
           `,
     src: "/mern.jpg",
-    link: "https://mern-estate-hkvl.onrender.com",
+    link: "https://mern-estate-sable.vercel.app/",
   },
   {
     title: "Face Recognition Website",
