@@ -148,7 +148,7 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/linkedin.png",
-    link: "https://www.linkedin.com/in/honghao-zheng-77167223a/",
+    link: "https://www.linkedin.com/in/ryan312",
   },
   // {
   //   name: "Discord",
