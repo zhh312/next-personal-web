@@ -20,11 +20,12 @@ export const SkillData = [
     height: 65,
   },
   {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
+    name: "TypeScript",
+    Image: "/ts.png",
     width: 80,
     height: 80,
   },
+
   {
     name: "React",
     Image: "/react.png",
@@ -37,15 +38,14 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-
   {
-    name: "TypeScript",
-    Image: "/ts.png",
+    name: "Angular",
+    Image: "/angular.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Next js",
+    name: "Next.js",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -57,7 +57,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Node js",
+    name: "Node.js",
     Image: "/node-js.png",
     width: 80,
     height: 80,
@@ -65,6 +65,24 @@ export const SkillData = [
   {
     name: "Flask",
     Image: "/flask.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Jquery",
+    Image: "/jquery.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "BootStrap",
+    Image: "/bootstrap.png",
     width: 80,
     height: 80,
   },
@@ -78,8 +96,8 @@ export const backEndData = [
     height: 80,
   },
   {
-    name: "C++",
-    Image: "/c.png",
+    name: "Spring Boot",
+    Image: "/spring-boot.png",
     width: 80,
     height: 80,
   },
@@ -90,8 +108,20 @@ export const backEndData = [
     height: 80,
   },
   {
-    name: "SQL",
-    Image: "/sql.png",
+    name: "C++",
+    Image: "/c.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "MySQL",
+    Image: "/mysql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Redis",
+    Image: "/redis.png",
     width: 80,
     height: 80,
   },
@@ -101,15 +131,73 @@ export const backEndData = [
     width: 40,
     height: 40,
   },
+  
   {
-    name: "Android",
-    Image: "/android-studio.png",
+    name: "Kotlin",
+    Image: "/kotlin.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Kotlin",
-    Image: "/kotlin.png",
+    name: "Postges",
+    Image: "/postges.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Kafka",
+    Image: "/kafka.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "RabbitMQ",
+    Image: "/Rabbit.webp",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Mybatis",
+    Image: "/mybatis.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "ElasticSearch",
+    Image: "/es.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Logstash",
+    Image: "/logstash.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Kibana",
+    Image: "/kibana.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Firebase",
+    Image: "/firebase.png",
+    width: 80,
+    height: 80,
+  }
+];
+
+export const toolData = [
+  {
+    name: "AWS",
+    Image: "/aws.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Nginx",
+    Image: "/nginx.png",
     width: 80,
     height: 80,
   },
@@ -120,23 +208,47 @@ export const backEndData = [
     height: 80,
   },
   {
+    name: "Jenkins",
+    Image: "/jenkins.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Jira",
+    Image: "/jira.png",
+    width: 80,
+    height: 80,
+  },
+  {
     name: "Linux",
     Image: "/linux.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Flutter",
-    Image: "/flutter.png",
+    name: "Intellij",
+    Image: "/idea.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Haskell",
-    Image: "/haskell.png",
+    name: "Postman",
+    Image: "/postman.png",
     width: 80,
     height: 80,
   },
+  {
+    name: "Vscode",
+    Image: "/vscode.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Android",
+    Image: "/android-studio.png",
+    width: 80,
+    height: 80,
+  }
 ];
 
 export const Socials = [
