@@ -33,7 +33,7 @@ const Page = () => {
           }}
           className='max-w-[90%]'
           slidesPerView={7}
-          speed={15000}
+          speed={3000}
           loop={true}
         >
           {SkillData.map((skill, index) => (
@@ -62,7 +62,7 @@ const Page = () => {
           }}
           className='max-w-[90%] bottom-10'
           slidesPerView={7}
-          speed={15000}
+          speed={3000}
           loop={true}
         >
           {backEndData.map((skill, index) => (
@@ -92,7 +92,7 @@ const Page = () => {
           }}
           className='max-w-[90%] bottom-20'
           slidesPerView={7}
-          speed={15000}
+          speed={3000}
           loop={true}
         >
           {toolData.map((skill, index) => (
